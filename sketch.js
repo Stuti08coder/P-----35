@@ -70,19 +70,11 @@ function updateHeight(x,y){
   })
 }
 
-
-
-
-
-
-
 function readHeight(data){
   height = data.val();
   balloon.x = height.x;
   balloon.y = height.y;
 }
-
-
 
 function showError(){
   console.log("Error in writing to the database");
